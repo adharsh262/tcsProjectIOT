@@ -1,0 +1,22 @@
+.wcuListItemfddf {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  border-top: #a64dff solid 1px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  margin: 10px;
+}
+.wcuListItemfddf:hover {
+  border-top: #fff solid 5px;
+  box-shadow: 0px 4px 16px 0px #a64dff;
+  background-color: #a64dff;
+  color: #fff;
+}
+.headingLineRealtime {
+  color: #fff;
+  background-color: #a64dff;
+  width: 100%;
+}

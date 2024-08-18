@@ -1,0 +1,35 @@
+.headingLineRealtime {
+  text-align: center;
+}
+.btnModelTwoBtn {
+  padding: 10px;
+  background-color: #fff;
+  color: #a64dff;
+  border: 1px solid #a64dff;
+  width: 120px;
+  border-radius: 20px;
+}
+.btnModelTwoBtn:hover {
+  color: #fff;
+  border: 0 solid;
+  background-color: #a64dff;
+}
+
+.btnModelTwoBtnContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.jdsgj {
+  background-color: #a64dff;
+  display: flex;
+  height: 50px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.btnContModelTwo {
+  margin-top: 20px;
+}

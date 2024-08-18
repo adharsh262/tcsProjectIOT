@@ -1,0 +1,23 @@
+.ProfileImg {
+  border-radius: 50%;
+  width: 100px;
+}
+.home-content-Profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ProfileCard {
+  width: 320px;
+}
+.proimg1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: start;
+}
+.para {
+  margin-top: 0;
+  margin-bottom: 0;
+}

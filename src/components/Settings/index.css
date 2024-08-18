@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.sideBar {
+  width: 100px;
+  padding: 10px;
+  background-color: aliceblue;
+  height: 98vh;
+}
+.unorderedWcuevf {
+  margin-left: 0;
+  padding-left: 0;
+  display: none;
+
+  width: 100%;
+}
+.listItemds {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.listItemds:hover {
+  color: #a64dff;
+  font-weight: 900;
+  font-size: 15px;
+}
+.linkdecoration:hover {
+  color: #a64dff;
+  font-weight: 900;
+  font-size: 15px;
+}
+.responsiveSettings {
+  display: flex;
+  margin-left: 0;
+  padding-left: 0;
+  flex-direction: column;
+  list-style-type: none;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .responsiveSettings {
+    display: none;
+    margin-left: 0;
+    padding-left: 0;
+    flex-direction: column;
+    list-style-type: none;
+    width: 100%;
+  }
+  .unorderedWcuevf {
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    width: 100%;
+  }
+}

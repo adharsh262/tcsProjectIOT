@@ -1,0 +1,68 @@
+.opaqueheading {
+  display: flex;
+  align-items: center;
+  background-color: #a64dff;
+  color: #fff;
+  width: 93vw;
+}
+.opaquehomepage {
+  display: flex;
+}
+.opaquemainpage {
+  width: 100%;
+}
+.opaquehead {
+  font-size: 20px;
+  margin-left: 20px;
+}
+.backSymbol {
+  font-size: 30px;
+  color: #fff;
+}
+.linkdecoration {
+  text-decoration: none;
+}
+.btnstyleEl {
+  color: #fff;
+  border: 2px #000 solid;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: red;
+}
+.changeStyleopq {
+  background-color: green;
+}
+.unorderedListopaque {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  padding: 20px;
+}
+.listitemopaque {
+  border: 2px solid #d1d1e0;
+  border-top: 2px solid #a64dff;
+  border-radius: 4px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 10px;
+}
+.discriptionopaque {
+  width: 200px;
+}
+.windowImg1 {
+  width: 230px;
+  height: 230px;
+}
+.headop {
+  color: #a64dff;
+  font-size: 15px;
+}

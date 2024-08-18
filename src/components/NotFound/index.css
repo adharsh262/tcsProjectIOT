@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.notFounfDage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #a64dff;
+  height: 100vh;
+}
+.notfoundImg {
+  width: 20%;
+  margin-top: 300px;
+  margin: 50px;
+}

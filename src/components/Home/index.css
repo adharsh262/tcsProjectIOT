@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.home-content {
+  display: flex;
+  align-items: center;
+}
+.home-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+.bashBoard {
+  display: flex;
+}
+.prowcu {
+  display: flex;
+}
+
+.propile {
+  display: none;
+}
+.propilecont {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  background-color: #d8dfe7;
+  width: 250px;
+}
+
+@media (min-width: 768px) {
+  .home-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .bashBoard {
+    display: flex;
+  }
+  .prowcu {
+    display: none;
+  }
+  .propile {
+    display: flex;
+  }
+}
